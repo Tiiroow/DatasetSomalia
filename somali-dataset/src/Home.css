@@ -1,0 +1,156 @@
+/* MAIN CONTAINER */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 24px 16px;
+  font-family: 'Arial', sans-serif;
+  background-color: white;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+header h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1f2937;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.nav {
+  display: flex;
+  gap: 12px;
+}
+
+.nav button {
+  padding: 8px 16px;
+  font-size: 14px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.nav button:hover {
+  background: #f3f4f6;
+}
+
+/* SEARCH BAR */
+.search-bar {
+  width: 100%;
+  padding: 12px 18px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  margin: 24px 0;
+}
+
+/* SECTION SPACING */
+section {
+  margin-bottom: 48px;
+}
+
+section h2 {
+  font-size: 20px;
+  margin-bottom: 16px;
+  color: #1e293b;
+}
+
+/* DATASET CARD */
+.dataset-card {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.03);
+}
+
+.dataset-card.large {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dataset-card p {
+  font-size: 14px;
+  color: #4b5563;
+  margin-top: 8px;
+}
+
+.tags {
+  margin-top: 10px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  font-size: 12px;
+  background: #f1f5f9;
+  padding: 4px 10px;
+  border-radius: 8px;
+  color: #374151;
+}
+
+/* DOWNLOAD BUTTON */
+.download-btn {
+  background: #2563eb;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* CATEGORIES */
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 16px;
+}
+
+.category {
+  background: #dbeafe;
+  color: #1d4ed8;
+  text-align: center;
+  padding: 16px 0;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* RECENT GRID */
+.recent-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+/* MOBILE FRIENDLY */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+  }
+}
+
+.container {
+  width: 210%;
+  padding: 24px 32px;
+  box-sizing: border-box;
+}

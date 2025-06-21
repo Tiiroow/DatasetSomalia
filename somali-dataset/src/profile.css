@@ -1,0 +1,114 @@
+/* Profile.css */
+
+.profile-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: "Segoe UI", sans-serif;
+  color: #1a1a1a;
+  background-color: #f9f9f9;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+}
+
+/* .profile-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #007bff;
+} */
+
+.profile-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.profile-stats {
+  display: flex;
+  gap: 20px;
+  margin-top: 8px;
+  font-size: 14px;
+  color: #333;
+}
+
+.profile-tabs {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+  justify-content: flex-end;
+}
+
+.profile-tabs button {
+  background-color: #e6e6e6;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.profile-tabs button:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.dataset-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.dataset-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #e3e3e3;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+  transition: transform 0.2s ease;
+}
+
+.dataset-card:hover {
+  transform: translateY(-4px);
+}
+
+.dataset-card h3 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #222;
+}
+
+.dataset-card p {
+  font-size: 14px;
+  color: #555;
+  margin: 8px 0;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.tag {
+  background: #e8f0fe;
+  color: #1a73e8;
+  padding: 4px 10px;
+  border-radius: 16px;
+  font-size: 13px;
+  font-weight: 500;
+}

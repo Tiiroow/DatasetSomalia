@@ -1,0 +1,153 @@
+/* .auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f6f8fb;
+}
+
+.auth-form {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.07);
+  width: 100%;
+  max-width: 420px;
+}
+
+.auth-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.auth-header h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.toggle-link {
+  background: none;
+  border: none;
+  color: #2563eb;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.auth-form label {
+  display: block;
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background-color: #2563eb;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.forgot-text {
+  font-size: 14px;
+  margin-top: -10px;
+  text-align: right;
+  color: #555;
+}
+
+.forgot-text a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+} */
+
+
+
+
+/* ResetPassword.css or Auth.css shared */
+.auth-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f7f9fc;
+}
+
+.auth-form-container {
+  background: white;
+  padding: 40px 50px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+.auth-form-container h2 {
+  margin-bottom: 24px;
+  font-size: 28px;
+  color: #1f2937;
+}
+
+.auth-form label {
+  display: block;
+  text-align: left;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #333;
+  font-size: 16px;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.auth-form input:focus {
+  border-color: #2563eb;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 16px;
+  background-color: #2563eb;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #1e40af;
+}
